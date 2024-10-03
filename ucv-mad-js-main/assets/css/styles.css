@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu'), url(http://example.com/fonts/ubuntu.woff) format('woff');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    font-family: 'Ubuntu', "times new roman", times, serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    height: 9vh;
+}
+
+#logo-btn {
+    display: flex;
+    flex-direction: row;
+    margin: auto .4vw auto 0;
+    text-decoration: none;
+}
+
+#logo-btn img {
+    height: 7vh;
+    align-self: center;
+    margin: auto .8vw;
+}
+
+#logo-btn > h1 {
+    font-size: 3vh;
+    color: black;
+}
+
+#clock {
+    align-self: center;
+    margin-right: .9vw;
+    font-size: 2.5vh;
+}
+
+main {
+    background-image: url('../img/park-sunset.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 88vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 3vh;
+    
+}
+
+footer h2 {
+    font-size: 1.5vh;
+}
