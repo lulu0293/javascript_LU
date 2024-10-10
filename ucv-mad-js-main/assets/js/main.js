@@ -16,7 +16,7 @@ window.onload = function () {
     console.log(miReloj);
     console.dir(miReloj);
 
-    miReloj.innerText = "Holahola";
+    miReloj.innerText = "Hoahola";
 
     const headers = document.getElementsByTagName('h1');
     console.dir(headers[0]);
