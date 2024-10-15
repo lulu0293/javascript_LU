@@ -76,6 +76,7 @@ footer h2 {
  background-color: aliceblue;
  display: flex;
  flex-direction: row;
+ gap:1vw;
  justify-content: space-around;
  align-items: center;
  width: fit-content;
