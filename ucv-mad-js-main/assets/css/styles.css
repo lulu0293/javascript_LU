@@ -34,7 +34,7 @@ header {
     margin: auto .8vw;
 }
 
-#logo-btn > h1 {
+#logo-btn>h1 {
     font-size: 3vh;
     color: black;
 }
@@ -50,8 +50,40 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100vw;
     height: 88vh;
+}
+
+.h-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100vw;
+}
+
+.h-container>#clicker-container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1vh;
+    margin-right: .6vw;
+    padding: 1vh .7vw;
+    border-radius: 50px;
+    border: solid 1px white;
+}
+
+.h-container>#clicker-container>svg {
+    margin: auto .3vw;
+    transition-duration: .3s;
+}
+
+.h-container>#clicker-container>svg:hover {
+    cursor: pointer;
 }
 
 footer {
@@ -60,30 +92,9 @@ footer {
     justify-content: space-around;
     align-items: center;
     height: 3vh;
-    
+
 }
 
 footer h2 {
     font-size: 1.5vh;
-}
-.hcontainer{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100vw;
-}
-.hcontainer>#clickercontainer{
- background-color: aliceblue;
- display: flex;
- flex-direction: row;
- gap:1vw;
- justify-content: space-around;
- align-items: center;
- width: fit-content;
- height: fit-content;
- margin-top: 1vh;
- margin-right: .6vw;
- padding: 1vh .7vw;
- border-radius: 50px;
- border: solid 1px black;
 }
